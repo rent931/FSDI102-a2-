@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+    
+*{
+
+    /*global*/
+    
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: 'lato', sans-serif;
+    background-color: black;
+    color: white;
+}
+img{
+
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+/*utilities*/
+
+/*main*/
+nav.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 50px;
+}
+img.logo{
+    height: 40px;
+}
+.icon-login{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: black;
+    margin-right: 20px;
+}
+.icon-subscribe{ 
+    text-transform: uppercase;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    font-weight: 900;
+    margin-right: 20px;
+    letter-spacing: 3px;
+}
+.fa-search,.icon-renew,.icon-menu{
+    display: none;
+}
+.fa-angle-double-down{
+    margin-right: 20px;
+}
+header{
+    height: 200px;
+    color: white;
+ text-align: center;
+ 
+
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 2000;
+    margin-top: 60px;
+    font-size: 55px;
+}
+header span{
+    border-bottom: 2px solid rgb(238, 238, 8);
+}
+header p {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-size: 18px;
+   
+}
+header span:hover{
+    background-color: rgb(238, 238, 8);
+    color: black;
+}
+.border{
+    border-bottom: 3px solid rgb(238, 238, 8);
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+    
